@@ -40,7 +40,7 @@ The work is delivered as a fully self-contained Jupyter Notebook with eight prof
 ```
 cognifyz_cuisine_analysis/
 │
-├── cuisine_combination_analysis.ipynb   ← Main analysis notebook (open this)
+├── analysis.ipynb                       ← Main analysis notebook (open this)
 ├── cognifyz_dataset.csv                 ← Source dataset (included)
 ├── requirements.txt                     ← Python dependencies
 ├── README.md                            ← This file
@@ -127,14 +127,14 @@ cd cognifyz_cuisine_analysis
 pip install -r requirements.txt
 
 # 3. Open in VS Code
-code cuisine_combination_analysis.ipynb
+code analysis.ipynb
 ```
 
 Select the **Python 3** kernel when prompted, then click **Run All**.
 
 Alternatively:
 ```bash
-jupyter notebook cuisine_combination_analysis.ipynb
+jupyter notebook analysis.ipynb
 ```
 
 ---
